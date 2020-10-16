@@ -65,6 +65,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     
 
 }
@@ -83,12 +84,23 @@ body {
 
 .cob-web-top-right {
     
+    top: 0;
+    right: 0;
 }
 
 .cob-web-bottom-left {
-
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
 }
 
 .cob-web-bottom-right {
-    
+    transform: rotate(90deg);
+    bottom: 0;
+    right: 0;
+}
+
+.spider {
+    align-self: flex-start;
+    transform: translateY(-10px);
 }
