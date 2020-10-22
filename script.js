@@ -37,6 +37,18 @@ class AudioController {
     }
 }
 
+class MixOrMatch {
+    constructor(totalTime, cards){
+        this.cardsArray = cards;
+        this.totalTime = totalTime;
+        this.timeRemaining = totalTime;
+        this.timer = document.getElementById('time-remainer');
+        this.ticker = document.getElementById('flips');
+        this.AudioController = new AudioController();
+    }
+}
+
+
 
 if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', ready());
