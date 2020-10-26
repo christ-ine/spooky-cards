@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100vh;
+
+}
+
+body {
+    margin: 0;
+    background: radial-gradient(#9D5900, #3D2200);
+}
